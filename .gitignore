@@ -1,0 +1,7 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+# 系统
+.DS_Store
+Thumbs.db
