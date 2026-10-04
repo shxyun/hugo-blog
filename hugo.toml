@@ -6,10 +6,6 @@ paginate = 10
 enableRobotsTXT = true
 [params]
   author = "沈立军"
-  [params.socialIcons]
-    [[params.socialIcons]]
-      name = "github"
-      url = "https://github.com/shxyun"
   description = "记录技术、思考与生活"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -19,6 +15,9 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shxyun"
   [params.homeInfoParams]
     Title = "你好，我是沈立军 👋"
     Content = "欢迎来到我的博客，这里记录技术、思考与生活。"
