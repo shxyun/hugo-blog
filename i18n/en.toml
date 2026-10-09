@@ -1,0 +1,128 @@
+[home]
+other = "Home"
+
+[posts]
+other = "Posts"
+
+[tags]
+other = "Tags"
+
+[archives]
+other = "Archives"
+
+[about]
+other = "About"
+
+[read_more]
+other = "Read more"
+
+[read_time]
+other = "%d min read"
+
+[words]
+other = "words"
+
+[minutes]
+other = "min"
+
+[categories]
+other = "Categories"
+
+[series]
+other = "Series"
+
+[part]
+other = "Part %s"
+
+[page_not_found]
+other = "Page Not Found"
+
+[page_404]
+other = "Page Not Found"
+
+[back_to_home]
+other = "Back to Home"
+
+[search]
+other = "Search"
+
+[search_placeholder]
+other = "Type to search..."
+
+[results_found]
+other = "%d results found"
+
+[no_results]
+other = "No results found"
+
+[share]
+other = "Share"
+
+[share_on]
+other = "Share on %s"
+
+[copyright]
+other = "Copyright"
+
+[author]
+other = "Author"
+
+[publish_date]
+other = "Publish Date"
+
+[modified_date]
+other = "Last Modified"
+
+[reading_time]
+other = "Reading Time"
+
+[views]
+other = "Views"
+
+[older_posts]
+other = "Older Posts"
+
+[newer_posts]
+other = "Newer Posts"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[publish]
+other = "Publish"
+
+[unsubscribe]
+other = "Unsubscribe"
+
+[email]
+other = "Email"
+
+[subscribe]
+other = "Subscribe"
+
+[rss]
+other = "RSS"
+
+[follow]
+other = "Follow"
+
+[notifications]
+other = "Notifications"
+
+[loading]
+other = "Loading..."
+
+[error]
+other = "Error"
+
+[retry]
+other = "Retry"
+
+[scroll_to_top]
+other = "Scroll to top"
+
+[scroll_to_bottom]
+other = "Scroll to bottom"

@@ -1,0 +1,13 @@
+{{- /* 语言切换器 */ -}}
+{{- if .IsTranslated -}}
+{{- $currentLang := .Language.LanguageName -}}
+<span class="lang-switch">
+  {{- range .AllTranslations -}}
+    {{- if ne .Language.LanguageName $currentLang -}}
+      <a href="{{ .Permalink }}" class="lang-link" hreflang="{{ .Language.LanguageCode }}">
+        {{ .Language.LanguageName }}
+      </a>
+    {{- end -}}
+  {{- end -}}
+</span>
+{{- end -}}

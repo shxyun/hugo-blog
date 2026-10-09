@@ -3,5 +3,7 @@ title = "在这里写标题"
 date = 2026-10-04T20:00:00+08:00
 draft = true
 tags = ["随笔"]
+language = "zh"
 +++
+
 在这里写正文。

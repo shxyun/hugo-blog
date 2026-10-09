@@ -1,0 +1,128 @@
+[home]
+other = "首页"
+
+[posts]
+other = "文章"
+
+[tags]
+other = "标签"
+
+[archives]
+other = "归档"
+
+[about]
+other = "关于"
+
+[read_more]
+other = "阅读全文"
+
+[read_time]
+other = "%d 分钟阅读"
+
+[words]
+other = "字"
+
+[minutes]
+other = "分钟"
+
+[categories]
+other = "分类"
+
+[series]
+other = "系列"
+
+[part]
+other = "第 %s 部分"
+
+[page_not_found]
+other = "页面未找到"
+
+[page_404]
+other = "页面未找到"
+
+[back_to_home]
+other = "返回首页"
+
+[search]
+other = "搜索"
+
+[search_placeholder]
+other = "输入关键词搜索..."
+
+[results_found]
+other = "找到 %d 个结果"
+
+[no_results]
+other = "未找到相关内容"
+
+[share]
+other = "分享"
+
+[share_on]
+other = "分享到 %s"
+
+[copyright]
+other = "版权所有"
+
+[author]
+other = "作者"
+
+[publish_date]
+other = "发布日期"
+
+[modified_date]
+other = "修改日期"
+
+[reading_time]
+other = "阅读时间"
+
+[views]
+other = "浏览"
+
+[older_posts]
+other = "较旧文章"
+
+[newer_posts]
+other = "较新文章"
+
+[previous]
+other = "上一页"
+
+[next]
+other = "下一页"
+
+[publish]
+other = "发布"
+
+[unsubscribe]
+other = "取消订阅"
+
+[email]
+other = "邮箱"
+
+[subscribe]
+other = "订阅"
+
+[rss]
+other = "RSS"
+
+[follow]
+other = "关注"
+
+[notifications]
+other = "通知"
+
+[loading]
+other = "加载中..."
+
+[error]
+other = "错误"
+
+[retry]
+other = "重试"
+
+[scroll_to_top]
+other = "回到顶部"
+
+[scroll_to_bottom]
+other = "到底部"

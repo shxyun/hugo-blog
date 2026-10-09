@@ -1,12 +1,77 @@
 baseURL = "https://blog.shenlijun.cn/"
-locale = "zh-cn"
+defaultContentLanguage = "zh"
 title = "沈立军的博客"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
+
+[languages]
+  [languages.zh]
+    languageCode = "zh-CN"
+    languageName = "中文"
+    title = "沈立军的博客"
+    weight = 1
+    [languages.zh.params]
+      author = "沈立军"
+      description = "记录技术、思考与生活"
+      [languages.zh.params.homeInfoParams]
+        Title = "你好，我是沈立军 👋"
+        Content = "欢迎来到我的博客，这里记录技术、思考与生活。"
+    [[languages.zh.menu.main]]
+      identifier = "posts"
+      name = "文章"
+      url = "/zh/posts/"
+      weight = 10
+    [[languages.zh.menu.main]]
+      identifier = "tags"
+      name = "标签"
+      url = "/zh/tags/"
+      weight = 20
+    [[languages.zh.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "/zh/archives/"
+      weight = 30
+    [[languages.zh.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "/zh/about/"
+      weight = 40
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Shen Lijun's Blog"
+    weight = 2
+    [languages.en.params]
+      author = "Shen Lijun"
+      description = "Technology, Thoughts & Life"
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm Shen Lijun 👋"
+        Content = "Welcome to my blog, where I share technology, thoughts and life."
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "/en/archives/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 40
+
 [params]
   author = "沈立军"
-  description = "记录技术、思考与生活"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
@@ -18,25 +83,7 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/shxyun"
-  [params.homeInfoParams]
-    Title = "你好，我是沈立军 👋"
-    Content = "欢迎来到我的博客，这里记录技术、思考与生活。"
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 20
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 30
+
 [markup]
   [markup.highlight]
     noClasses = false
