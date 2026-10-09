@@ -14,7 +14,7 @@ This blog is built with **Hugo + PaperMod** and deployed on Cloudflare Pages.
 
 - Write Markdown locally
 - `git push` for automatic deployment
-- Global CDN with automatic HTTPS
+- Global CDN with automatic HTTPS。
 
 ### Code Example
 
@@ -29,3 +29,4 @@ Place images in `static/images/`, then reference them:
 ```markdown
 ![Demo Image](/images/demo.png)
 ```
+{{< netdisk type="百度" name="示例资源合集（演示）" url="https://pan.baidu.com/s/1demo" code="abcd" >}}
