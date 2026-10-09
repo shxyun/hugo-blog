@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/zh/posts/netdisk-demo.md",
+                "file": "content/en/posts/hello-world.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "netdisk-demo"
+              "title": "hello-world"
             }
           }
         ]
@@ -191,9 +191,9 @@
   },
   "active": "d8041021e96d1703",
   "lastOpenFiles": [
+    "content/zh/posts/netdisk-demo.md",
     "content/zh/posts/untitled.md",
     "content/zh/posts/hello-world.md",
-    "content/zh/posts/netdisk-demo.md",
     "content/en/posts/hello-world.md",
     "content/posts/未命名.md",
     "templates/blog-post-template.md",
