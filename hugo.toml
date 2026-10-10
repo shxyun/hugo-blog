@@ -83,8 +83,14 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
   [[params.socialIcons]]
+    name = "email"
+    url = "mailto:blog@shenlijun.cn"
+  [[params.socialIcons]]
     name = "rss"
     url = "index.xml"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shxyun"
 
 [markup]
   [markup.highlight]
