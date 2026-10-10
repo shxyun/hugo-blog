@@ -5,7 +5,7 @@
   <span class="alert-ic">{{ $icon }}</span>
   <div class="alert-body">
     {{ with $title }}<strong class="alert-title">{{ . }}</strong>{{ end }}
-    <div class="alert-text">{{ .Inner }}</div>
+    <div class="alert-text">{{ .Inner | .Page.RenderString }}</div>
   </div>
 </div>
 <style>

@@ -1,0 +1,6 @@
+{{ $type := .Get "type" | default "track" }}
+{{ $id := .Get "id" }}
+{{ $height := .Get "height" | default (cond (eq $type "track") "152" "232") }}
+<div class="spotify-embed" style="margin:1.5em 0;max-width:680px;">
+  <iframe style="border-radius:12px;border:0" src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}?utm_source=generator" width="100%" height="{{ $height }}" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify {{ $type }} player"></iframe>
+</div>

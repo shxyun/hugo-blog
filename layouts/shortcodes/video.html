@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $poster := .Get "poster" }}
+{{ $audioExts := slice "mp3" "wav" "ogg" "m4a" "aac" "flac" }}
+{{ $ext := strings.TrimPrefix "." (lower (path.Ext $src)) }}
+{{ if in $audioExts $ext }}
+<audio controls preload="metadata" src="{{ $src }}" style="width:100%;max-width:680px;display:block;margin:1.5em auto"></audio>
+{{ else }}
+<video controls preload="metadata"{{ with $poster }} poster="{{ . }}"{{ end }} src="{{ $src }}" style="width:100%;max-width:680px;display:block;margin:1.5em auto;border-radius:12px;overflow:hidden"></video>
+{{ end }}
