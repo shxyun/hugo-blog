@@ -1,7 +1,7 @@
 +++
 title = "在这里写标题"
 date = 2026-10-04T20:00:00+08:00
-draft = fasle
+draft = false
 tags = ["随笔"]
 language = "zh"
 +++

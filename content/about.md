@@ -14,6 +14,10 @@ This is my personal blog, where I share thoughts on technology, life, and everyt
 - **Life reflections** — Musings on everyday experiences and personal growth
 - **Translated content** — Hand-picked posts from my Chinese-language work
 
+## Newsletter
+
+{{< subscribe >}}
+
 ## Contact
 
 - Email: blog@shenlijun.cn
