@@ -2,6 +2,9 @@
 public/
 resources/
 .hugo_build.lock
+# Obsidian
+.obsidian/
+*.base
 # 系统
 .DS_Store
 Thumbs.db

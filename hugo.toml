@@ -1,21 +1,55 @@
 baseURL = "https://blog.shenlijun.cn/"
-defaultContentLanguage = "zh"
-title = "沈立军的博客"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+title = "Shen Lijun's Blog"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
 
 [languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Shen Lijun's Blog"
+    weight = 1
+    [languages.en.params]
+      author = "Shen Lijun"
+      description = "Technology, Thoughts & Life"
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm Shen Lijun"
+        Content = "Welcome to my blog, where I share technology, thoughts and life."
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "/archives/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about/"
+      weight = 40
+
   [languages.zh]
     languageCode = "zh-CN"
     languageName = "中文"
-    title = "沈立军的博客"
-    weight = 1
+    title = "深励君的博客"
+    weight = 2
     [languages.zh.params]
-      author = "沈立军"
+      author = "深励君"
       description = "记录技术、思考与生活"
       [languages.zh.params.homeInfoParams]
-        Title = "你好，我是沈立军 👋"
+        Title = "你好，我是深励君"
         Content = "欢迎来到我的博客，这里记录技术、思考与生活。"
     [[languages.zh.menu.main]]
       identifier = "posts"
@@ -38,40 +72,8 @@ enableRobotsTXT = true
       url = "/zh/about/"
       weight = 40
 
-  [languages.en]
-    languageCode = "en-US"
-    languageName = "English"
-    title = "Shen Lijun's Blog"
-    weight = 2
-    [languages.en.params]
-      author = "Shen Lijun"
-      description = "Technology, Thoughts & Life"
-      [languages.en.params.homeInfoParams]
-        Title = "Hi, I'm Shen Lijun 👋"
-        Content = "Welcome to my blog, where I share technology, thoughts and life."
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      name = "Posts"
-      url = "/en/posts/"
-      weight = 10
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      name = "Tags"
-      url = "/en/tags/"
-      weight = 20
-    [[languages.en.menu.main]]
-      identifier = "archives"
-      name = "Archives"
-      url = "/en/archives/"
-      weight = 30
-    [[languages.en.menu.main]]
-      identifier = "about"
-      name = "About"
-      url = "/en/about/"
-      weight = 40
-
 [params]
-  author = "沈立军"
+  author = "Shen Lijun"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
@@ -81,11 +83,14 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
   [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/shxyun"
+    name = "rss"
+    url = "index.xml"
 
 [markup]
   [markup.highlight]
     noClasses = false
   [markup.goldmark.renderer]
     unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
