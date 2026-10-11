@@ -6,6 +6,7 @@ title = "Shen Lijun's Blog"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
+copyright = '© 2026 [Shen Lijun](https://blog.shenlijun.cn/) · Content licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
 
 [languages]
   [languages.en]
