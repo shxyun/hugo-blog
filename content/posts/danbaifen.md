@@ -49,4 +49,3 @@ If an elderly family member experiences obvious discomfort while supplementing p
 
 When it comes down to it, protein powder is a tool: used properly it helps, used wrongly it causes trouble. Do any of your elderly family members drink protein powder? Whose advice did they follow when buying it? Share in the comments, and give a heads-up to friends who are also uncertain.
 
-— Follow Shengxinyuan, and let's make life's matters clear, one by one.

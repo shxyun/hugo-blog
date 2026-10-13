@@ -42,7 +42,6 @@ Let me add some background here. According to the 55th CNNIC (China Internet Net
 
 Short dramas themselves are not the problem; the problem is whether anyone helps "keep a good watch" on the seniors' phones. There is one small thing you can do today: pick up Mom's or Dad's phone, go through the auto-renewal and password-free payment settings, check the bills for small late-night deductions, and have a chat with them. Do any elderly people in your family love short dramas? Have you ever found unexpected deductions in your bills? Share in the comments and give more people a heads-up.
 
-— Follow Shengxinyuan, and let's make life's matters clear, one by one.
 
 ---
 
