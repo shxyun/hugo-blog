@@ -52,6 +52,7 @@ copyright = '© 2026 [Shen Lijun](https://blog.shenlijun.cn/) · Content license
     languageName = "中文"
     title = "深励君的博客"
     weight = 2
+    contentDir = "content/zh"
     [languages.zh.params]
       description = "记录技术、思考与生活"
       [languages.zh.params.author]
