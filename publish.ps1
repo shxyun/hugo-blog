@@ -1,7 +1,7 @@
-﻿$libPath  = "E:\hugo\neirong\hugo\content\posts"
+$libPath  = "E:\hugo\neirong\hugo\content\posts"
 $sitePath = "E:\hugo\blog"
 $zhDir    = "E:\hugo\blog\content\zh\posts"
-$enDir    = "E:\hugo\blog\content\posts"
+$enDir    = "E:\hugo\blog\content\en\posts"
 
 Write-Host ""
 Write-Host "========================================" -ForegroundColor Cyan
