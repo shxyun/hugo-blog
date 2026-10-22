@@ -41,12 +41,14 @@ if ($langSel -eq "1") { $targetDir = $zhDir; $lang = "zh" }
 elseif ($langSel -eq "2") { $targetDir = $enDir; $lang = "en" }
 else { Write-Host "已取消。" -ForegroundColor Red; exit }
 
-$targetFile = Join-Path $targetDir $src.Name
+# 中文稿进 zh/posts 时去掉 .zh 后缀，否则 URL 会变成 /zh/zh/
+$destName = if ($lang -eq "zh") { $src.Name -replace '\.zh\.md$', '.md' } else { $src.Name }
+$targetFile = Join-Path $targetDir $destName
 
 # 已存在则确认覆盖
 if (Test-Path $targetFile) {
     Write-Host ""
-    Write-Host "目标已存在：$($src.Name)" -ForegroundColor Yellow
+    Write-Host "目标已存在：$($destName)" -ForegroundColor Yellow
     $ow = Read-Host "覆盖吗？(y/n)"
     if ($ow -ne "y" -and $ow -ne "Y") { Write-Host "已取消。" -ForegroundColor Red; exit }
 }
@@ -88,7 +90,7 @@ Write-Host "（date 已更新为当前时间，draft=false，language=$lang）" 
 
 # 第四步：提交推送
 Write-Host ""
-$defaultMsg = "发布文章 $($src.BaseName) [$lang]"
+$defaultMsg = "发布文章 $($destName -replace '\.md$','') [$lang]"
 $msg = Read-Host "提交信息（直接回车用：$defaultMsg）"
 if ([string]::IsNullOrWhiteSpace($msg)) { $msg = $defaultMsg }
 
